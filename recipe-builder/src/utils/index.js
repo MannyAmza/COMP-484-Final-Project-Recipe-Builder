@@ -1,5 +1,4 @@
-//const key="4e987c1ec87fa772769ccab022d5bb85"
-//const id="e3a1a977"
+
 export async function fetchRecipes (filter){
     const {query, limit} = filter;
 
