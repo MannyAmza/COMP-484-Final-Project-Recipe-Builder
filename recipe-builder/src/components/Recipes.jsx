@@ -55,7 +55,7 @@ const Recipes = () => {
     return (
         <div className='w-full'>
             <div className='w-full flex items-center justify-center pt-10 pb-5 px-0 md:px-10'>
-                <form className='w-full' onSubmit={handleSearchedRecipe}>
+                <form className='w-full lg:w-2/4' onSubmit={handleSearchedRecipe}>
                     <Searchbar placeholder="eg. Cake, Vegan, Chicken"
                         handleInputChange={handleChange}
                         rightIcon={

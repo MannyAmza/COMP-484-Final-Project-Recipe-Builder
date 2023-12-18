@@ -15,10 +15,12 @@ const RecipeCard = ({ recipe }) => {
                     <p className='text-white font-semibold'>{label}</p>
 
                     <div className='mt-2'>
-                        <span className='px-2 py-1 text-[12px] capitalize bg-[#0c452243] shadow-xl rounded-full mr-3 text-green-500'>
+                        <span className='px-2 py-1 text-[12px] capitalize bg-[#453d0c43] shadow-xl 
+                        rounded-full mr-3 text-orange-500'>
                             {cuisineType}
                         </span>
-                        <span className='px-2 py-1 text-[12px] capitalize bg-[#0c452243] shadow-xl rounded-full text-green-500'>
+                        <span className='px-2 py-1 text-[12px] capitalize bg-[#453d0c43] shadow-xl 
+                        rounded-full text-orange-500'>
                             {mealType}
                         </span>
                     </div>
