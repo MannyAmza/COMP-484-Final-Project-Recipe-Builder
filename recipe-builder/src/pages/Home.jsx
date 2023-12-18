@@ -6,8 +6,9 @@ const Home = () => {
     <main classname = "w-full flex flex-col">
         <Header
         title={
-            <p>RecipeBuilder!</p>
+            <p>CookTherapy!</p>
         }
+        type='home'
         />
     </main>
   )
