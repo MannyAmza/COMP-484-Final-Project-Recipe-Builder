@@ -1,9 +1,12 @@
+/* Importing base styles, components, and utilities from Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Importing the Nunito font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
 
+/* Global styles for the body */
 body {
   margin: 0;
   padding: 0;
@@ -12,7 +15,7 @@ body {
 }
 
 
-
+/* Styling for a custom button component */
 .custom-btn {
   @apply flex-row relative justify-center items-center py-2 px-6 outline-none;
 }
@@ -21,18 +24,22 @@ body {
   @apply hover: text-green-600
 } */
 
+/* Shadow utility classes */
 .shadow {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+/* Additional shadow class */
 .shadow1 {
   box-shadow: blue 0px 0px 0px 2px;
 }
 
+/* Gradient background class */
 .bg_gradient {
   @apply bg-gradient-to-t from-slate-900 to-transparent top-0
 }
 
+/* Styling for a loading dots container */
 .dots-container {
   display: flex;
   align-items: center;
@@ -42,6 +49,7 @@ body {
   margin-bottom: 5px;
 }
 
+/* Styling for individual loading dots with animation */
 .dot {
   height: 12px;
   width: 12px;
@@ -55,6 +63,7 @@ body {
   margin-right: 0;
 }
 
+/* Delayed animation for each dot */
 .dot:nth-child(1) {
   animation-delay: -0.3s;
 }
@@ -67,6 +76,7 @@ body {
   animation-delay: 0.1s;
 }
 
+/* Keyframes for the loading pulse animation */
 @keyframes pulse {
   0% {
     transform: scale(0.8);
